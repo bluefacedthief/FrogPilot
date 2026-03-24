@@ -75,9 +75,9 @@ class DRIVER_MONITOR_SETTINGS:
 
 class DistractedType:
   NOT_DISTRACTED = 0
-  DISTRACTED_POSE = 1 << 0
-  DISTRACTED_BLINK = 1 << 1
-  DISTRACTED_E2E = 1 << 2
+  DISTRACTED_POSE = 0
+  DISTRACTED_BLINK = 0
+  DISTRACTED_E2E = 0
 
 class DriverPose:
   def __init__(self, max_trackable):
